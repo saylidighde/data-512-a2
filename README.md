@@ -16,12 +16,12 @@ The dataset of country-wise populations can be found [here](https://www.dropbox.
 ## Resources used
 
 This analysis was prepared using Python 3.6.4 running in a Jupyter Notebook environment.
-Documentation for Python can be found here: https://docs.python.org/3.5/
-Documentation for Jupyter Notebook can be found here: http://jupyter-notebook.readthedocs.io/en/latest/
+* Documentation for Python can be found here: https://docs.python.org/3.5/
+* Documentation for Jupyter Notebook can be found here: http://jupyter-notebook.readthedocs.io/en/latest/
 
 The following Python packages were used and their documentation can be found at the accompanying links:
-[Pandas](https://pandas.pydata.org/pandas-docs/stable/api.html): Data Analysis for Python
-[Requests](http://docs.python-requests.org/en/master/): HTTP for Humans
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/api.html): Data Analysis for Python
+* [Requests](http://docs.python-requests.org/en/master/): HTTP for Humans
 
 ## ORES API 
 
@@ -34,15 +34,15 @@ I used Wikimedia API endpoint for a machine learning system called ORES to get q
 5. Start - Start-class article
 6. Stub - Stub-class article
 
-More information about these categories can be found [here](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)
-More information about the ORES can be found [here](https://www.mediawiki.org/wiki/ORES)
-ORES API Documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model)
+* More information about these categories can be found [here](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)
+* More information about the ORES can be found [here](https://www.mediawiki.org/wiki/ORES)
+* ORES API Documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model)
 
 A "high-quality" article belongs to either the FA or GA categories.
 
 ## Final data file
 
-After obtaining ORES prediction for each of the articles in the Wikipedia dataset, this dataset was merged with the country population dataset. Rows found in one and not in the other were dropped. The final dataset after merging is saved in the [`analyses_data.csv`](#) file.
+After obtaining ORES prediction for each of the articles in the Wikipedia dataset, this dataset was merged with the country population dataset. Rows found in one and not in the other were dropped. The final dataset after merging is saved in the [analyses_data.csv](https://github.com/saylidighde/data-512-a2/blob/master/analyses_data.csv) file.
 
 
 ## Expected Biases, Analysis Results, and Probable Explanations
@@ -57,6 +57,6 @@ In the table listing out the highest-ranked countries in terms of the number of 
 
 ## License
 
-The project is licensed under the MIT License.
+The project is licensed under the [MIT License](https://github.com/saylidighde/data-512-a2/blob/master/LICENSE).
 
 
