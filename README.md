@@ -34,15 +34,15 @@ I used Wikimedia API endpoint for a machine learning system called ORES to get q
 5. Start - Start-class article
 6. Stub - Stub-class article
 
-More information about these categories can be found [here](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)
-More information about the ORES can be found [here](https://www.mediawiki.org/wiki/ORES)
-ORES API Documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model)
+*More information about these categories can be found [here](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)
+*More information about the ORES can be found [here](https://www.mediawiki.org/wiki/ORES)
+*ORES API Documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model)
 
 A "high-quality" article belongs to either the FA or GA categories.
 
 ## Final data file
 
-After obtaining ORES prediction for each of the articles in the Wikipedia dataset, this dataset was merged with the country population dataset. Rows found in one and not in the other were dropped. The final dataset after merging is saved in the [`analyses_data.csv`](#) file.
+After obtaining ORES prediction for each of the articles in the Wikipedia dataset, this dataset was merged with the country population dataset. Rows found in one and not in the other were dropped. The final dataset after merging is saved in the [analyses_data.csv](https://github.com/saylidighde/data-512-a2/blob/master/analyses_data.csv) file.
 
 
 ## Expected Biases, Analysis Results, and Probable Explanations
@@ -57,6 +57,6 @@ In the table listing out the highest-ranked countries in terms of the number of 
 
 ## License
 
-The project is licensed under the MIT License.
+The project is licensed under the [MIT License](https://github.com/saylidighde/data-512-a2/blob/master/LICENSE).
 
 
