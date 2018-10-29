@@ -34,9 +34,9 @@ I used Wikimedia API endpoint for a machine learning system called ORES to get q
 5. Start - Start-class article
 6. Stub - Stub-class article
 
-*More information about these categories can be found [here](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)
-*More information about the ORES can be found [here](https://www.mediawiki.org/wiki/ORES)
-*ORES API Documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model)
+* More information about these categories can be found [here](https://en.wikipedia.org/wiki/Wikipedia:Content_assessment#Grades)
+* More information about the ORES can be found [here](https://www.mediawiki.org/wiki/ORES)
+* ORES API Documentation can be found [here](https://ores.wikimedia.org/v3/#!/scoring/get_v3_scores_context_revid_model)
 
 A "high-quality" article belongs to either the FA or GA categories.
 
