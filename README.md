@@ -16,12 +16,12 @@ The dataset of country-wise populations can be found [here](https://www.dropbox.
 ## Resources used
 
 This analysis was prepared using Python 3.6.4 running in a Jupyter Notebook environment.
-Documentation for Python can be found here: https://docs.python.org/3.5/
-Documentation for Jupyter Notebook can be found here: http://jupyter-notebook.readthedocs.io/en/latest/
+* Documentation for Python can be found here: https://docs.python.org/3.5/
+* Documentation for Jupyter Notebook can be found here: http://jupyter-notebook.readthedocs.io/en/latest/
 
 The following Python packages were used and their documentation can be found at the accompanying links:
-[Pandas](https://pandas.pydata.org/pandas-docs/stable/api.html): Data Analysis for Python
-[Requests](http://docs.python-requests.org/en/master/): HTTP for Humans
+* [Pandas](https://pandas.pydata.org/pandas-docs/stable/api.html): Data Analysis for Python
+* [Requests](http://docs.python-requests.org/en/master/): HTTP for Humans
 
 ## ORES API 
 
