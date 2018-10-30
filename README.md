@@ -42,8 +42,7 @@ A "high-quality" article belongs to either the FA or GA categories.
 
 ## Final data file
 
-After obtaining ORES prediction for each of the articles in the Wikipedia dataset, this dataset was merged with the country population dataset. Rows found in one and not in the other were dropped. The final dataset after merging is saved in the [analyses_data.csv](https://github.com/saylidighde/data-512-a2/blob/master/analyses_data.csv) file.
-
+After obtaining ORES prediction for each of the articles in the Wikipedia dataset, this dataset was merged with the country population dataset. Rows found in one and not in the other were dropped. The final dataset after merging is saved in the [analyses_data.csv](https://github.com/saylidighde/data-512-a2/blob/master/analyses_data.csv) file. It has columns like article name, country, revision id (or last edit ID on wikipedia), article quality, and population.
 
 ## Expected Biases, Analysis Results, and Probable Explanations
 
