@@ -23,7 +23,7 @@ in its digital catalog. The current process is to manually search and pick the r
 
 ### Model Pipeline
 
-![pipeline.png](attachment:pipeline.png)
+![Model Pipeline](/pipeline.png)
 
 ### Difficulties
 
